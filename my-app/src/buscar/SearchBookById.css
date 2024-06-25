@@ -1,0 +1,123 @@
+/* SearchBookById.css */
+
+.search-book-by-id {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    max-width: 600px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.search-book-by-id h1 {
+    margin-bottom: 20px;
+}
+
+.search-book-by-id div {
+    margin-bottom: 10px;
+}
+
+.search-book-by-id label {
+    margin-right: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.search-book-by-id input {
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+.search-book-by-id button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+
+.search-book-by-id button:hover {
+    background-color: #45a049;
+}
+
+.message {
+    margin-top: 10px;
+    color: red;
+    font-size: 1.2em;
+}
+
+.book-details {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.book-details h2 {
+    margin-bottom: 20px;
+}
+
+.book-details div {
+    margin-bottom: 10px;
+}
+
+.book-details input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+    width: calc(100% - 16px);
+}
+
+.book-details button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+
+.book-details button:hover {
+    background-color: #45a049;
+}
+
+/* Dark mode styles */
+.search-book-by-id.dark-mode {
+    background-color: #333;
+    border-color: #555;
+    color: white;
+}
+
+.search-book-by-id.dark-mode input {
+    background-color: #555;
+    border-color: #777;
+    color: white;
+}
+
+.search-book-by-id.dark-mode button {
+    background-color: #4CAF50;
+}
+
+.search-book-by-id.dark-mode button:hover {
+    background-color: #45a049;
+}
+
+.book-details.dark-mode {
+    background-color: #444;
+    border-color: #666;
+}
+
+.book-details.dark-mode input {
+    background-color: #555;
+    border-color: #777;
+    color: white;
+}
